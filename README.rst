@@ -18,6 +18,7 @@ First, we create a folder with the name "task_management" in the /addons path. I
 2. Define the models:
 =============
 In the models.py file, we define the models that we will use in our module. In this case, we will create a model called "Task" with the following fields:
+
 * name: the name of the task.
 * description: a description of the task.
 * assigned_to: the user assigned to the task.
