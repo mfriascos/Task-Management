@@ -6,13 +6,17 @@ Task-Management
 
 As an example model, I am going to create a mid-level Odoo module called "Task Management". This module will allow users to create and assign tasks, track progress, and receive notifications when tasks are completed.
 
-<h2>Create the module structure</h2>
+1. Create the module structure
+=============
 First, we create a folder with the name "task_management" in the /addons path. Inside this folder, we create the following files:
-init.py: This file is necessary for Odoo to recognize the folder as a module.
-models.py: This file will contain the definitions of our models.
-views.xml: This file will contain the views for our models.
-security.xml: This file will contain the user permission definitions for our module.
-Define the models:
+
+* init.py: This file is necessary for Odoo to recognize the folder as a module.
+* models.py: This file will contain the definitions of our models.
+* views.xml: This file will contain the views for our models.
+* security.xml: This file will contain the user permission definitions for our module.
+
+2. Define the models:
+=============
 In the models.py file, we define the models that we will use in our module. In this case, we will create a model called "Task" with the following fields:
 name: the name of the task.
 description: a description of the task.
